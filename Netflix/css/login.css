@@ -1,0 +1,119 @@
+        #loginbody,
+        #form {
+            width: 22rem;
+            height: auto;
+            background: rgba(17, 17, 17, 0.824);
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            padding-top: 25px;
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+        
+        #loginbody {
+            border: 1px solid rgba(128, 128, 128, 0.215);
+            border-radius: 5px;
+            padding-bottom: 40px;
+        }
+        
+        .contentbody {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        
+        #footer {
+            width: 100%;
+            height: 30rem;
+            background: black;
+        }
+        
+        .contentbody>#loginbody>div {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .contentbody>#loginbody>#form {
+            gap: 10px;
+        }
+        
+        .contentbody>#loginbody>#form>input,
+        button {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            background: transparent;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        
+        .contentbody>#loginbody>#form>input::-webkit-input-placeholder {
+            color: rgb(160, 159, 159);
+            font-size: 14px;
+        }
+        
+        .contentbody>#loginbody>#form>input {
+            padding: 20px;
+        }
+        
+        .contentbody>#loginbody>#form>button {
+            height: 2.7rem;
+            width: 98%;
+            background: rgb(201, 9, 9);
+            font-size: 16px;
+            font-weight: 540;
+            font-family: sans-serif;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .contentbody>#loginbody>.box1 {
+            width: 99%;
+            gap: 15px;
+        }
+        
+        .contentbody>#loginbody>.box1>button {
+            padding: 10px;
+            background: rgba(109, 104, 104, 0.746);
+            font-weight: 550;
+            width: 98%;
+            cursor: pointer;
+        }
+        
+        .contentbody>#loginbody>.box2>div {
+            display: flex;
+            justify-content: left;
+            border: 1px solid wheat;
+            width: 100%;
+        }
+        
+        .contentbody>#loginbody>.box2 {
+            display: flex;
+            justify-content: left;
+            border: 1px solid wheat;
+            width: 100%;
+        }
+        
+        #footer>ul>li {
+            list-style: none;
+            color: gray;
+            text-decoration: overline;
+        }
+        
+        @media (max-width: 700px) {
+            #loginbody,
+            #form {
+                width: 100%;
+                background: transparent;
+                padding: 20px;
+            }
+            .contentbody {}
+            #HeroBody {
+                background: black;
+            }
+            #loginbody {
+                border: none
+            }
+        }
